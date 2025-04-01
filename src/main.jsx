@@ -13,6 +13,11 @@ import SearchByCategory from './search/[category]'
 import SearchByOptions from './search'
 import ListingDetail from './listing-details/[id]'
 
+import Success from './Success'; // Import the Success component
+import Cancel from './Cancel'; // Import the Cancel component
+import Pricing from './listing-details/components/Pricing'; // Your Pricing component
+
+
 const router=createBrowserRouter([
     {
       path:'/',
@@ -41,7 +46,20 @@ const router=createBrowserRouter([
     {
       path:'/listing-details/:id',
       element:<ListingDetail/>
-    }
+    },
+    {
+      path: '/success',
+      element: <Success />, // Route for success page
+    },
+    {
+      path: '/cancel',
+      element: <Cancel />, // Route for cancel page
+    },
+    {
+      path: '/pricing',
+      element: <Pricing />, // Your Pricing component
+    },
+    
 ])
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -59,3 +77,7 @@ createRoot(document.getElementById('root')).render(
     </ClerkProvider>
   </StrictMode>,
 )
+
+export default function App() {
+  return <RouterProvider router={router} />;
+}

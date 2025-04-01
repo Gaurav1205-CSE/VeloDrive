@@ -22,13 +22,14 @@ function InfoSection() {
   
           <div className="p-8 sm:p-16 lg:p-24">
             <h2 className="text-2xl font-bold sm:text-3xl">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, debitis.
+              Seamless rentals, trusted connections, and a smarter way to share the road.
             </h2>
   
             <p className="mt-4 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-              esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-              architecto eius quis quibusdam fugiat dicta.
+              Finding the perfect ride has never been easier! VeloDrive connects car and bike owners with renters in a seamless, secure, 
+              and sustainable way. Whether you need a vehicle for a road trip, a daily commute, or just an adventure, our platform offers 
+              a hassle-free rental experience. With verified users, secure payments, and a wide range of vehicles to choose from, VeloDrive 
+              makes mobility more accessible and eco-friendly. Join us today and unlock the road to convenience and flexibility!.
             </p>
   
             <a

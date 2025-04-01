@@ -23,6 +23,7 @@ function Home() {
         <InfoSection/>
         {/* Footer  */}
         <Footer/>
+      
 
     </div>
   )
